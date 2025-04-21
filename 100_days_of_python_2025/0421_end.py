@@ -9,3 +9,4 @@ print("This is subtraction:", a-b)
 print("This is multiplication:", a*b)
 print("This is division:", a/b)
 print("This is division:", a//b) #this is integer division
+print("This is division:", a%b) #this operator gives the remainder
