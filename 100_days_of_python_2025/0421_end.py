@@ -14,3 +14,8 @@ print("This is division:", a%b) #this operator gives the remainder
 #use of formatting in print : this later useful in may complex programs
 
 print(f"This remainder after dividing {19} by {b} is: {19%b}")
+
+#if we use (  end=","  ) after formatting string it will replace the end value of print with comma
+
+print(f"This remainder after dividing {19} by {b} is: {19%b}",end=",")
+print("This is the text which is in new line")
