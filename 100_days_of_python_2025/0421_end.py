@@ -10,3 +10,7 @@ print("This is multiplication:", a*b)
 print("This is division:", a/b)
 print("This is division:", a//b) #this is integer division
 print("This is division:", a%b) #this operator gives the remainder
+
+#use of formatting in print : this later useful in may complex programs
+
+print(f"This remainder after dividing {19} by {b} is: {19%b}")
