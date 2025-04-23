@@ -1,0 +1,15 @@
+Examples of String function are:
+
+upper()
+lower()
+title()
+#if we use 'is' infront of the above functions then it will return boolean value.
+
+capitalize()
+replace()
+split()
+len()
+count() #gives the number of character repeated in the string
+translate()
+
+index() #find the position of the value in the string 
