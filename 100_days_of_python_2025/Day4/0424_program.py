@@ -7,7 +7,9 @@ if num<=1:
 elif num==2:
      print("It is prime number.")
 else:
-    is_prime=True
+    is_prime=True 
+
+    #I have already started to use loop 
     for i in range(2,int(math.sqrt(num))+1): #You don't have to divide the number from 2 to num, instead you can do upto sqrt of n plus 1
       if num%i==0: #if it is divisible than it is not a prime number
           is_prime=False
