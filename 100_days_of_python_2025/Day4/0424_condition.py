@@ -1,5 +1,6 @@
 # Types of condition
 # if, if ...else, if ...elif ...else (nested condition)
+#this is not supposed to go advanced but i used try except for value error handling
 
 try:
     age = int(input("Enter Your Age: "))
