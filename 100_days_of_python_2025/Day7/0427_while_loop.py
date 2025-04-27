@@ -18,3 +18,29 @@ while i<=50:
     else: 
         print(f"{i}(Odd)")
     i=i+1
+print("""
+
+
+""")
+#now this code prints prime number upto 50 using while loop
+j=0
+while j<=50:
+    if j==0 or j==1:
+        print(f"{j} is not a prime number.")
+    elif j==2:
+        print(f"{j}(Prime)")
+    if j>2:
+        k=2
+        count=0
+        while k<=j:
+            if j%k==0:
+              count=count+1  
+            k=k+1
+        if count>=2:
+            print(f"{j}(Composite)")
+        else:
+            print(f"{j}(Prime)")
+    j=j+1
+
+
+#I made this code work after 5 modifications ( T-T) .
