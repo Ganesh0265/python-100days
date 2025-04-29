@@ -5,7 +5,8 @@ times = input("For how many times do you want to repeat: ")
 
 if not times.isdigit():
     print("Invalid Input!")
-times=int(times)
-for i in range(1,times+1):
-    print(design*i)
+else:
+    times=int(times)
+    for i in range(1,times+1):
+        print(design*i)
 
