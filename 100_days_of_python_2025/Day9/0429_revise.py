@@ -7,6 +7,14 @@ for i in range(1,len(word)+1):
 print(f"The reverse of \"{word}\" is \"{reverse}\" ")
 
 
+
+print("""
+
+""")
+
+#We can do the same thing without for loop like this
+print(word[::-1])
+
 print("""
 
 
