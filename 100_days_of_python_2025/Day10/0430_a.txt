@@ -1,0 +1,5 @@
+#This day we learn about loop control
+we can control the loop working mechanism with following keywords:
+1.Break
+2.Continue
+3.Pass
