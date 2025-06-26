@@ -1,5 +1,5 @@
 # this code shows the way to use dictionary
-dic={"name":"Ganesh","address":"Bharatpur-2","Ph.No.":"9816226758"}
+dic={"name":"Ganesh","address":"Bharatpur-2","Ph.No.":"9800000000"}
 print(dic)
 print(dic["address"])
 print(dic.get("name"))
