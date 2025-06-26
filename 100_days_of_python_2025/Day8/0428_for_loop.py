@@ -1,6 +1,5 @@
 #This code is to demostrate for loop for string data types.
 a="SAGARMATHA"
-count=1
 for i in a:
     print(f"The current letter is {i}")
 print("""
